@@ -1,0 +1,13 @@
+@import "basic/_reset.css";
+@import "basic/_global.css";
+@import "basic/_fonts.css";
+@import "basic/_vars.css";
+@import "basic/_header.css";
+    
+@import "home/_home.css";
+@import "home/_skills.css";
+@import "home/_contact.css";
+
+@import "components/_footer.css";
+
+@import "_cases.css";

@@ -1,0 +1,39 @@
+.skills {
+    margin-top: 140px;
+}
+
+.skills_items {
+    font-size: 18px;
+
+}
+
+.skills__subtitle {
+display: flex;
+font-size: 18px;
+}
+
+.skills__subtitle p:not(:last-child) {
+    margin-bottom: 140px;
+}
+.main__software {
+    max-width: 124px;
+    width: 100%;
+    margin-right: 63px;
+}
+
+.skills__description {
+    max-width: 436px;
+
+}
+
+.skills__description p:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.mail {
+    display: flex;
+    border-top: 2px solid;
+    margin-top: 70px;
+    
+}
+
