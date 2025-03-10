@@ -37,3 +37,16 @@ font-size: 18px;
     
 }
 
+
+@media (max-width: 770px) {
+ 
+    .skills__subtitle{
+
+    display: flex;
+    font-size: 18px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+}
