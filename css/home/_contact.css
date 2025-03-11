@@ -16,7 +16,7 @@
     display: inline-block;
     transform: translateX(-40px) translateY(16px);
     max-width: 21px;
-    
+
 }
 
 .contact__info {
@@ -32,4 +32,30 @@
     font-size: 18px;
     margin-top: 20px;
     display: inline-block;
+}
+
+@media (max-width: 830px) {
+
+    .contact__inner {
+        border-top: 2px solid black;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .contact__text {
+        margin-top: 70px;
+        display: block;
+        max-width: 350px;
+        font-size: 32px;
+    }
+
+    .contact__text img {
+        display: block;
+        transform: rotate(90deg);
+        max-width: 21px;
+        margin: 25px auto 0;
+    }
 }

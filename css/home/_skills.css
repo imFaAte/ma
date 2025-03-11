@@ -8,13 +8,14 @@
 }
 
 .skills__subtitle {
-display: flex;
-font-size: 18px;
+    display: flex;
+    font-size: 18px;
 }
 
 .skills__subtitle p:not(:last-child) {
     margin-bottom: 140px;
 }
+
 .main__software {
     max-width: 124px;
     width: 100%;
@@ -34,19 +35,24 @@ font-size: 18px;
     display: flex;
     border-top: 2px solid;
     margin-top: 70px;
-    
+
 }
 
 
 @media (max-width: 770px) {
- 
-    .skills__subtitle{
 
-    display: flex;
-    font-size: 18px;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+    .skills__subtitle {
+        margin-bottom: 80px;
+        display: flex;
+        font-size: 18px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
 
-}
+    }
+
+    .skills__subtitle p:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
 }
