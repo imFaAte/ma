@@ -58,4 +58,18 @@
         max-width: 21px;
         margin: 25px auto 0;
     }
+
+}
+
+@media (max-width: 468px) {
+
+    .contact__text {
+        font-size: 28px;
+    }
+
+    .contact__mail {
+        font-size: 28px;
+    }
+
+
 }

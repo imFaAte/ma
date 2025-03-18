@@ -10,3 +10,12 @@
     display: flex;
     gap: 32px;
 }
+
+@media (max-width: 468px) {
+ 
+    .header__list {
+        font-size: 18px;
+        gap: 15px;
+    }
+}
+

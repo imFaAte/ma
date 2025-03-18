@@ -19,7 +19,6 @@
 .main__software {
     max-width: 124px;
     width: 100%;
-    margin-right: 63px;
 }
 
 .skills__description {
@@ -53,6 +52,6 @@
 
     .skills__subtitle p:not(:last-child) {
         margin-bottom: 40px;
-    }
+    }       
 
 }
