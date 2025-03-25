@@ -1,5 +1,5 @@
 .toggle-mnu {
-  display: block;
+  display: none;
   width: 28px;
   height: 28px;
   margin-top: 14px;
@@ -43,4 +43,10 @@
 
 .toggle-mnu.on span:after {
   transform: rotate(-45deg) translate(6px, -7px);
+}
+
+@media (max-width:610px){
+  .toggle-mnu {
+    display:block ;
+  }
 }

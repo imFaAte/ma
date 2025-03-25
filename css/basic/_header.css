@@ -4,6 +4,8 @@
     align-items: center;
     gap: 50px;
     margin-top: 50px;
+    z-index: 50;
+    position: relative;
 }
 
 .header__list {
@@ -17,14 +19,15 @@
     height: 100%;
     background-color: wheat;
     color: white;
-    padding: 80px 15px 30px;
+    padding: 125px 15px 30px;
     position: fixed;
     transition: transform .6s;
     transform: translateX(100%);
 }
 
 .header__mobile.active {
-    transform: translateX(0);
+    transform: translateX(35%);
+    top: 0;
 }
 
 

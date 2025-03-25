@@ -7,7 +7,7 @@
 
 .cases__title {
     font-size: 60px;
-    margin-right: 120px;
+    font-weight: 500;
 }
 
 .cases__text {
@@ -68,4 +68,8 @@
 .cases__content { 
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+    
 }
