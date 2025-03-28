@@ -27,7 +27,7 @@
     margin-bottom: 45px;
     max-width: 356px;
     font-size: 18px;
-    
+
 }
 
 .cases__description p:not(:last-child) {
@@ -39,7 +39,7 @@
     margin-bottom: 170px;
     font-size: 14px;
     max-width: 315px;
-    color:var(--gray);
+    color: var(--gray);
 }
 
 .cases__number {
@@ -54,7 +54,7 @@
     margin-top: 115px;
     margin-bottom: 105px;
     padding-bottom: 105px;
-    border-bottom: 1px solid black  ;
+    border-bottom: 1px solid black;
 }
 
 
@@ -65,11 +65,147 @@
     margin-top: auto;
 }
 
-.cases__content { 
+.cases__content {
     display: flex;
     flex-direction: column;
 }
 
 @media (max-width: 1200px) {
-    
+    .cases__title {
+        font-size: 58px;
+    }
+
+    .cases__text {
+        font-size: 30px;
+    }
+
+    .cases__arrow {
+        margin-top: 60px;
+    }
+
+    @media (max-width: 960px) {
+
+        .cases__title {
+            font-size: 56px;
+            margin-right: 15px;
+        }
+
+        .cases__text {
+            font-size: 26px;
+        }
+
+        .cases__arrow {
+            margin-top: 45px;
+        }
+
+        .cases__img {
+            max-width: 600px;
+            max-height: 400px;
+        }
+
+        .cases__card {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .cases__content {
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .cases__subtext {
+            margin: 0 auto 50px;
+        }
+
+        .cases__arrow {
+            margin: 15px auto 0;
+
+        }
+
+    }
+
+    @media (max-width: 760px) {
+
+        .cases__title {
+            font-size: 54px;
+            margin: 0 auto;
+        }
+
+        .cases__text {
+            font-size: 24px;
+            margin: 15px auto;
+        }
+
+        .cases__top {
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+
+        }
+
+        @media (max-width: 610px) {
+            .cases__title {
+                font-size: 50px;
+            }
+
+            .cases__text {
+                font-size: 22px;
+            }
+
+            .cases__arrow {
+                margin: 10px auto;
+            }
+        }
+
+        @media (max-width: 468px) {
+
+            .cases__card {
+                margin: 0 auto 30px;
+            }
+
+            .cases__title {
+                font-size: 48px;
+            }
+
+            .cases__text {
+                font-size: 20px;
+            }
+
+            .cases__img {
+                max-width: 400px;
+                max-height: 250px;
+            }
+        }
+
+        @media (max-width: 375px) {
+
+            .cases__title {
+                font-size: 44px;
+            }
+
+            .cases__text {
+                font-size: 18px;
+            }
+
+            .cases__subtext {
+                margin: 0 auto 10px;
+            }
+
+            .cases__description {
+                font-size: 15px;
+            }
+
+
+
+            .cases__img {
+                max-width: 330px;
+                max-height: 250px;
+            }
+        }
+
+
+
+    }
 }
